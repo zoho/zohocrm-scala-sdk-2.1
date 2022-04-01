@@ -347,7 +347,7 @@ object Constants {
 
   val ZOHO_SDK = "X-ZOHO-SDK"
 
-  val SDK_VERSION = "1.0.0"
+  val SDK_VERSION = "1.1.0"
 
   val ZOHO_API_VERSION = "2.1"
 
