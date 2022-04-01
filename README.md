@@ -94,6 +94,9 @@ Scala SDK is available through Maven distribution. You can include the SDK to yo
     }
      ```
 
+4. Downloadable JARs ([by Zoho](https://www.zoho.com/sites/default/files/crm/zohocrmsdk-2-1-1.1.0.zip))
+ 
+
 ### Dependency JARs
 
 [commons-io-1.3.2.jar](https://mvnrepository.com/artifact/org.apache.commons/commons-io/1.3.2)
@@ -346,7 +349,7 @@ Before you get started with creating your Scala application, you need to registe
     /*
         * Configure the environment
         * which is of the pattern Domain.Environment
-        * Available Domains: USDataCenter, EUDataCenter, INDataCenter, CNDataCenter, AUDataCenter
+        * Available Domains: USDataCenter, EUDataCenter, INDataCenter, CNDataCenter, AUDataCenter,JPDataCenter
         * Available Environments: PRODUCTION, DEVELOPER, SANDBOX
     */
     val env = USDataCenter.PRODUCTION
@@ -530,7 +533,7 @@ object Initialize {
     /*
      * Configure the environment
      * which is of the pattern Domain.Environment
-     * Available Domains: USDataCenter, EUDataCenter, INDataCenter, CNDataCenter, AUDataCenter
+     * Available Domains: USDataCenter, EUDataCenter, INDataCenter, CNDataCenter, AUDataCenter,JPDataCenter
      * Available Environments: PRODUCTION, DEVELOPER, SANDBOX
      */
     val env = USDataCenter.PRODUCTION
@@ -982,7 +985,7 @@ object Record {
     /*
       * Configure the environment
       * which is of the pattern Domain.Environment
-      * Available Domains: USDataCenter, EUDataCenter, INDataCenter, CNDataCenter, AUDataCenter
+      * Available Domains: USDataCenter, EUDataCenter, INDataCenter, CNDataCenter, AUDataCenter,JPDataCenter
       * Available Environments: PRODUCTION, DEVELOPER, SANDBOX
     */
     val environment = USDataCenter.PRODUCTION
